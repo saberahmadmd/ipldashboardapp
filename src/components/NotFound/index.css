@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notfound-heading {
+  font-size: 42px;
+  font-weight: bold;
+}
