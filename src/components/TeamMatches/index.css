@@ -61,6 +61,38 @@
   margin-top: 24px;
 }
 
+.back-button {
+  width: 100px;
+  height: 45px;
+  border-radius: 12px;
+  background-color: #00c49f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #008c6a;
+  transform: scale(1.05);
+}
+
+.back-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #00c49f;
+}
+
+.back-button:active {
+  background-color: #006b4c;
+  transform: scale(0.98);
+}
+
 @media screen and (min-width: 768px) {
   .recent-matches-list {
     margin-top: 32px;
